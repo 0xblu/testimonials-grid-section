@@ -11,18 +11,19 @@
 .attribution {
   font-size: 11px;
   text-align: center;
+  background-color: hsl(210, 46%, 95%);
+  color: black;
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(118, 76%, 55%);
 }
 
 .grid {
-  margin: 5rem;
+  padding: 5rem 0;
 }
 .main {
-  background-color: hsl(0, 0%, 81%);
-  height: 1000vh;
+  background-color: hsl(210, 46%, 95%);
 }
 .card {
   margin: auto;
@@ -37,7 +38,6 @@
   display: flex;
   align-items: center;
   gap: 15px;
-  margin-bottom: 10px;
 }
 
 .graduate-image {
@@ -52,8 +52,8 @@
 .title {
   font-size: 20px;
   font-weight: 600;
-  padding-bottom: 15px;
-  padding: 10px 19px;
+
+  padding: 15px 0px;
 }
 
 .opacity {
@@ -84,9 +84,14 @@
   color: hsl(219, 29%, 14%);
 }
 
+.bg-image {
+  background-image: url("images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position-x: 90%;
+}
+
 @media screen and (min-width: 767px) {
   .grid {
     display: grid;
-    grid-template-columns: ;
   }
 }
