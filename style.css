@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow Semi Condensed";
+  font-size: 13px;
+  font-weight: 500;
+  color: hsl(0, 0%, 100%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.grid {
+  margin: 5rem;
+}
+.main {
+  background-color: hsl(0, 0%, 81%);
+  height: 1000vh;
+}
+.card {
+  margin: auto;
+  width: 90%;
+  max-width: 350px;
+  padding: 25px;
+  border-radius: 7px;
+  margin-bottom: 25px;
+}
+
+.graduate {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.graduate-image {
+  border-radius: 50%;
+  width: 35px;
+}
+
+.border-violet {
+  border: 1.5px solid #a875f1;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 15px;
+  padding: 10px 19px;
+}
+
+.opacity {
+  color: hsl(0, 0%, 70%);
+}
+
+.name {
+  padding-bottom: 2px;
+  font-size: 16px;
+}
+
+.bg-gray {
+  background-color: #49556b;
+}
+
+.bg-white {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.bg-text-dark-gray {
+  background-color: hsl(219, 29%, 14%);
+}
+
+.bg-violet {
+  background-color: hsl(263, 60%, 52%);
+}
+.text-dark-gray {
+  color: hsl(219, 29%, 14%);
+}
+
+@media screen and (min-width: 767px) {
+  .grid {
+    display: grid;
+    grid-template-columns: ;
+  }
+}
